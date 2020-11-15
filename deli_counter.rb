@@ -7,6 +7,7 @@ def line(array)
     array.each_with_index do |name, index|
       sentence << "#{index+1}, #{name}. "
     end
+    sentence
   end
 end
 
