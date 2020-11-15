@@ -10,5 +10,3 @@ def line(array)
     sentence
   end
 end
-
-    
