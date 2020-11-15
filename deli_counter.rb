@@ -7,6 +7,6 @@ def line(array)
     array.each_with_index do |name, index|
       sentence << "#{index+1}. #{name}, "
     end
-    puts sentence.strip(-2)
+    puts sentence[0...-2]
   end
 end
